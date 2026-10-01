@@ -1,0 +1,199 @@
+{
+  "floating_material": {
+    "curve": [
+      {
+        "bin": [
+          0.0,
+          0.1
+        ],
+        "confidence": 0.005,
+        "observed": 0.0,
+        "n": 188550
+      },
+      {
+        "bin": [
+          0.1,
+          0.2
+        ],
+        "confidence": 0.139,
+        "observed": 0.005,
+        "n": 3242
+      },
+      {
+        "bin": [
+          0.2,
+          0.3
+        ],
+        "confidence": 0.239,
+        "observed": 0.028,
+        "n": 744
+      },
+      {
+        "bin": [
+          0.3,
+          0.4
+        ],
+        "confidence": 0.345,
+        "observed": 0.136,
+        "n": 220
+      },
+      {
+        "bin": [
+          0.4,
+          0.5
+        ],
+        "confidence": 0.447,
+        "observed": 0.35,
+        "n": 123
+      },
+      {
+        "bin": [
+          0.5,
+          0.6
+        ],
+        "confidence": 0.547,
+        "observed": 0.525,
+        "n": 80
+      },
+      {
+        "bin": [
+          0.6,
+          0.7
+        ],
+        "confidence": 0.655,
+        "observed": 0.831,
+        "n": 83
+      },
+      {
+        "bin": [
+          0.7,
+          0.8
+        ],
+        "confidence": 0.752,
+        "observed": 0.917,
+        "n": 133
+      },
+      {
+        "bin": [
+          0.8,
+          0.9
+        ],
+        "confidence": 0.857,
+        "observed": 0.957,
+        "n": 231
+      },
+      {
+        "bin": [
+          0.9,
+          1.0
+        ],
+        "confidence": 0.977,
+        "observed": 0.999,
+        "n": 1457
+      }
+    ],
+    "ece": 0.009,
+    "brier": 0.0015,
+    "positives": 2022,
+    "n": 194863
+  },
+  "marine_debris": {
+    "curve": [
+      {
+        "bin": [
+          0.0,
+          0.1
+        ],
+        "confidence": 0.004,
+        "observed": 0.0,
+        "n": 192201
+      },
+      {
+        "bin": [
+          0.1,
+          0.2
+        ],
+        "confidence": 0.137,
+        "observed": 0.008,
+        "n": 1769
+      },
+      {
+        "bin": [
+          0.2,
+          0.3
+        ],
+        "confidence": 0.24,
+        "observed": 0.045,
+        "n": 398
+      },
+      {
+        "bin": [
+          0.3,
+          0.4
+        ],
+        "confidence": 0.346,
+        "observed": 0.272,
+        "n": 103
+      },
+      {
+        "bin": [
+          0.4,
+          0.5
+        ],
+        "confidence": 0.452,
+        "observed": 0.554,
+        "n": 74
+      },
+      {
+        "bin": [
+          0.5,
+          0.6
+        ],
+        "confidence": 0.549,
+        "observed": 0.61,
+        "n": 41
+      },
+      {
+        "bin": [
+          0.6,
+          0.7
+        ],
+        "confidence": 0.65,
+        "observed": 0.825,
+        "n": 63
+      },
+      {
+        "bin": [
+          0.7,
+          0.8
+        ],
+        "confidence": 0.754,
+        "observed": 0.91,
+        "n": 78
+      },
+      {
+        "bin": [
+          0.8,
+          0.9
+        ],
+        "confidence": 0.851,
+        "observed": 0.953,
+        "n": 107
+      },
+      {
+        "bin": [
+          0.9,
+          1.0
+        ],
+        "confidence": 0.924,
+        "observed": 1.0,
+        "n": 29
+      }
+    ],
+    "ece": 0.0058,
+    "brier": 0.0009,
+    "positives": 381,
+    "n": 194863
+  },
+  "note": "MARIDA test split; ECE = average gap between stated confidence and observed frequency."
+}

@@ -1,0 +1,51 @@
+AquaTrace AI: updating a copy you already have (round-2 accuracy update)
+========================================================================
+
+What changed: a new, more accurate debris classifier (94.1 % accuracy), drift settings tuned on real
+buoys (honest uncertainty cones), corrected runs, a new Model-trust panel, and an updated report and
+deck. The Python packages did NOT change, so .venv/ and data/ stay as they are.
+
+Your project folder is the one that contains: backend/  frontend/  data/  models/  outputs/  run_demo.sh
+
+
+STEP 1. Stop the app if it is running
+   In the terminal where ./run_demo.sh (or uvicorn) is running, press Ctrl+C.
+
+STEP 2. Back up the folders that will be replaced (so you can undo)
+   Inside the project folder, rename:
+       backend   -> backend_old
+       frontend  -> frontend_old
+       models    -> models_old
+       outputs   -> outputs_old
+
+   Mac / Linux terminal (run inside the project folder):
+       mv backend backend_old && mv frontend frontend_old && mv models models_old && mv outputs outputs_old
+
+STEP 3. Copy the new folders and files in
+   From the unzipped AquaTrace_AI folder, copy into your project folder:
+       backend/  frontend/  models/  outputs/  docs/  presentation/
+       README.md  DEMO.md  CLAUDE.md  UPDATING_AN_EXISTING_COPY.txt
+
+   Mac / Linux (adjust the path to where you unzipped the new project):
+       NEW=~/Downloads/AquaTrace_AI
+       cp -R "$NEW"/backend "$NEW"/frontend "$NEW"/models "$NEW"/outputs .
+       cp -R "$NEW"/docs "$NEW"/presentation "$NEW"/*.md "$NEW"/UPDATING_AN_EXISTING_COPY.txt .
+
+   Do NOT replace data/ or .venv/ (raw satellite downloads and your Python environment live there).
+
+STEP 4. Start the app as usual
+       ./run_demo.sh
+   (Windows: cd backend   then   ..\.venv\Scripts\uvicorn aquatrace.api:app --port 8000)
+
+   Open http://localhost:8000 and do a hard refresh:
+       Mac: Cmd + Shift + R        Windows / Linux: Ctrl + Shift + R
+
+STEP 5. Check it worked
+   Click "Model trust" (top right). You should see 94.1% detection accuracy, F1 0.93 / 0.78, and
+   "86% buoys inside the 48 h cone".
+
+
+If something goes wrong (undo)
+   Stop the app, delete the four new folders, rename the *_old folders back, start the app again.
+
+When it works, you can delete the *_old folders.

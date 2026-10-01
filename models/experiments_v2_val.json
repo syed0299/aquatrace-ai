@@ -1,0 +1,394 @@
+[
+  {
+    "name": "ET500 v1 cap40k",
+    "accuracy": 0.883,
+    "macro_f1": 0.6905,
+    "debris": {
+      "precision": 0.798,
+      "recall": 0.901,
+      "f1": 0.846,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.808,
+      "recall": 0.922,
+      "f1": 0.861,
+      "support": 2627
+    },
+    "seconds": 7.7
+  },
+  {
+    "name": "ET500 v2 cap40k",
+    "accuracy": 0.8961,
+    "macro_f1": 0.704,
+    "debris": {
+      "precision": 0.791,
+      "recall": 0.902,
+      "f1": 0.843,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.817,
+      "recall": 0.939,
+      "f1": 0.874,
+      "support": 2627
+    },
+    "seconds": 8.3
+  },
+  {
+    "name": "ET500 v2 cap100k",
+    "accuracy": 0.8917,
+    "macro_f1": 0.6977,
+    "debris": {
+      "precision": 0.797,
+      "recall": 0.9,
+      "f1": 0.845,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.835,
+      "recall": 0.928,
+      "f1": 0.879,
+      "support": 2627
+    },
+    "seconds": 19.6
+  },
+  {
+    "name": "ET500 v2 capallk",
+    "accuracy": 0.8896,
+    "macro_f1": 0.697,
+    "debris": {
+      "precision": 0.796,
+      "recall": 0.901,
+      "f1": 0.846,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.84,
+      "recall": 0.919,
+      "f1": 0.877,
+      "support": 2627
+    },
+    "seconds": 22.7
+  },
+  {
+    "name": "HistGB v2 cap40k",
+    "accuracy": 0.939,
+    "macro_f1": 0.7259,
+    "debris": {
+      "precision": 0.716,
+      "recall": 0.902,
+      "f1": 0.799,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.781,
+      "recall": 0.89,
+      "f1": 0.832,
+      "support": 2627
+    },
+    "seconds": 121.1
+  },
+  {
+    "name": "Ensemble 0.5 ET500 v2 cap40k + 0.5 HistGB",
+    "accuracy": 0.9403,
+    "macro_f1": 0.7323,
+    "debris": {
+      "precision": 0.74,
+      "recall": 0.903,
+      "f1": 0.814,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.796,
+      "recall": 0.898,
+      "f1": 0.843,
+      "support": 2627
+    },
+    "seconds": 0
+  },
+  {
+    "name": "Ensemble 0.7 ET500 v2 cap40k + 0.3 HistGB",
+    "accuracy": 0.9394,
+    "macro_f1": 0.7336,
+    "debris": {
+      "precision": 0.752,
+      "recall": 0.903,
+      "f1": 0.82,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.803,
+      "recall": 0.907,
+      "f1": 0.852,
+      "support": 2627
+    },
+    "seconds": 0
+  },
+  {
+    "name": "ET500 v2 cap40k | debris>= 0.2",
+    "accuracy": 0.8951,
+    "macro_f1": 0.6913,
+    "debris": {
+      "precision": 0.645,
+      "recall": 0.928,
+      "f1": 0.761,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.755,
+      "recall": 0.95,
+      "f1": 0.841,
+      "support": 2627
+    },
+    "seconds": 0,
+    "debris_threshold": 0.2
+  },
+  {
+    "name": "ET500 v2 cap40k | debris>= 0.25",
+    "accuracy": 0.8956,
+    "macro_f1": 0.6985,
+    "debris": {
+      "precision": 0.71,
+      "recall": 0.917,
+      "f1": 0.8,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.785,
+      "recall": 0.945,
+      "f1": 0.858,
+      "support": 2627
+    },
+    "seconds": 0,
+    "debris_threshold": 0.25
+  },
+  {
+    "name": "ET500 v2 cap40k | debris>= 0.3",
+    "accuracy": 0.8959,
+    "macro_f1": 0.7023,
+    "debris": {
+      "precision": 0.758,
+      "recall": 0.908,
+      "f1": 0.826,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.806,
+      "recall": 0.941,
+      "f1": 0.869,
+      "support": 2627
+    },
+    "seconds": 0,
+    "debris_threshold": 0.3
+  },
+  {
+    "name": "ET500 v2 cap40k | debris>= 0.35",
+    "accuracy": 0.896,
+    "macro_f1": 0.7033,
+    "debris": {
+      "precision": 0.78,
+      "recall": 0.902,
+      "f1": 0.837,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.814,
+      "recall": 0.939,
+      "f1": 0.872,
+      "support": 2627
+    },
+    "seconds": 0,
+    "debris_threshold": 0.35
+  },
+  {
+    "name": "ET500 v2 cap40k | debris>= 0.4",
+    "accuracy": 0.8961,
+    "macro_f1": 0.7039,
+    "debris": {
+      "precision": 0.79,
+      "recall": 0.902,
+      "f1": 0.842,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.817,
+      "recall": 0.939,
+      "f1": 0.874,
+      "support": 2627
+    },
+    "seconds": 0,
+    "debris_threshold": 0.4
+  },
+  {
+    "name": "Ensemble 0.7 ET500 v2 cap40k + 0.3 HistGB | debris>= 0.2",
+    "accuracy": 0.9388,
+    "macro_f1": 0.7301,
+    "debris": {
+      "precision": 0.664,
+      "recall": 0.925,
+      "f1": 0.773,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.763,
+      "recall": 0.916,
+      "f1": 0.833,
+      "support": 2627
+    },
+    "seconds": 0,
+    "debris_threshold": 0.2
+  },
+  {
+    "name": "Ensemble 0.7 ET500 v2 cap40k + 0.3 HistGB | debris>= 0.25",
+    "accuracy": 0.9391,
+    "macro_f1": 0.7319,
+    "debris": {
+      "precision": 0.701,
+      "recall": 0.913,
+      "f1": 0.793,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.78,
+      "recall": 0.911,
+      "f1": 0.84,
+      "support": 2627
+    },
+    "seconds": 0,
+    "debris_threshold": 0.25
+  },
+  {
+    "name": "Ensemble 0.7 ET500 v2 cap40k + 0.3 HistGB | debris>= 0.3",
+    "accuracy": 0.9393,
+    "macro_f1": 0.733,
+    "debris": {
+      "precision": 0.729,
+      "recall": 0.909,
+      "f1": 0.809,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.793,
+      "recall": 0.909,
+      "f1": 0.847,
+      "support": 2627
+    },
+    "seconds": 0,
+    "debris_threshold": 0.3
+  },
+  {
+    "name": "Ensemble 0.7 ET500 v2 cap40k + 0.3 HistGB | debris>= 0.35",
+    "accuracy": 0.9393,
+    "macro_f1": 0.7337,
+    "debris": {
+      "precision": 0.743,
+      "recall": 0.908,
+      "f1": 0.817,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.799,
+      "recall": 0.909,
+      "f1": 0.851,
+      "support": 2627
+    },
+    "seconds": 0,
+    "debris_threshold": 0.35
+  },
+  {
+    "name": "Ensemble 0.7 ET500 v2 cap40k + 0.3 HistGB | debris>= 0.4",
+    "accuracy": 0.9394,
+    "macro_f1": 0.7338,
+    "debris": {
+      "precision": 0.749,
+      "recall": 0.906,
+      "f1": 0.82,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.802,
+      "recall": 0.908,
+      "f1": 0.852,
+      "support": 2627
+    },
+    "seconds": 0,
+    "debris_threshold": 0.4
+  },
+  {
+    "name": "Hybrid: ET500 v2 cap40k decides floating, 0.0 ET + 1.0 HistGB names the rest",
+    "accuracy": 0.94,
+    "macro_f1": 0.7402,
+    "debris": {
+      "precision": 0.791,
+      "recall": 0.902,
+      "f1": 0.843,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.817,
+      "recall": 0.939,
+      "f1": 0.874,
+      "support": 2627
+    },
+    "seconds": 0,
+    "ensemble_weight": 0.0
+  },
+  {
+    "name": "Hybrid: ET500 v2 cap40k decides floating, 0.3 ET + 0.7 HistGB names the rest",
+    "accuracy": 0.9408,
+    "macro_f1": 0.7451,
+    "debris": {
+      "precision": 0.791,
+      "recall": 0.902,
+      "f1": 0.843,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.817,
+      "recall": 0.939,
+      "f1": 0.874,
+      "support": 2627
+    },
+    "seconds": 0,
+    "ensemble_weight": 0.3
+  },
+  {
+    "name": "Hybrid: ET500 v2 cap40k decides floating, 0.5 ET + 0.5 HistGB names the rest",
+    "accuracy": 0.9412,
+    "macro_f1": 0.7471,
+    "debris": {
+      "precision": 0.791,
+      "recall": 0.902,
+      "f1": 0.843,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.817,
+      "recall": 0.939,
+      "f1": 0.874,
+      "support": 2627
+    },
+    "seconds": 0,
+    "ensemble_weight": 0.5
+  },
+  {
+    "name": "Hybrid: ET500 v2 cap40k decides floating, 0.7 ET + 0.3 HistGB names the rest",
+    "accuracy": 0.94,
+    "macro_f1": 0.7449,
+    "debris": {
+      "precision": 0.791,
+      "recall": 0.902,
+      "f1": 0.843,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.817,
+      "recall": 0.939,
+      "f1": 0.874,
+      "support": 2627
+    },
+    "seconds": 0,
+    "ensemble_weight": 0.7
+  }
+]

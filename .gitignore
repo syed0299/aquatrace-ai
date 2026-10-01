@@ -1,0 +1,13 @@
+.venv/
+frontend/node_modules/
+# raw downloads are fetched on demand; keep only the small NOAA drifter tracks used for validation
+data/raw/*
+!data/raw/drifters/
+data/processed/s2/
+# trained models are too large for git (GitHub limit: 100 MB per file); publish them as a release asset
+*.joblib
+models/v1_backup/
+*.log
+__pycache__/
+*.pyc
+.DS_Store

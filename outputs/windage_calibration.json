@@ -1,0 +1,50 @@
+{
+  "window": [
+    "2025-01-01",
+    "2025-02-24"
+  ],
+  "cases": 235,
+  "forcing": {
+    "currents": "NASA OSCAR v2.0 (final) surface currents, 0.25 deg daily",
+    "wind": "NASA MERRA-2 (M2T1NXSLV) 10 m wind, 0.5 x 0.625 deg hourly"
+  },
+  "results": [
+    {
+      "windage": 0.0,
+      "median_24_km": 20.17,
+      "median_48_km": 36.83
+    },
+    {
+      "windage": 0.005,
+      "median_24_km": 18.78,
+      "median_48_km": 34.32
+    },
+    {
+      "windage": 0.01,
+      "median_24_km": 17.51,
+      "median_48_km": 31.93
+    },
+    {
+      "windage": 0.015,
+      "median_24_km": 16.34,
+      "median_48_km": 30.0
+    },
+    {
+      "windage": 0.02,
+      "median_24_km": 15.98,
+      "median_48_km": 28.61
+    },
+    {
+      "windage": 0.03,
+      "median_24_km": 16.32,
+      "median_48_km": 28.68
+    },
+    {
+      "windage": 0.04,
+      "median_24_km": 17.6,
+      "median_48_km": 31.74
+    }
+  ],
+  "best_windage": 0.02,
+  "created": "2026-10-01T00:35:00"
+}

@@ -1,0 +1,845 @@
+{
+  "calibration_window": [
+    "2025-01-01",
+    "2025-01-31"
+  ],
+  "holdout_window": [
+    "2025-02-01",
+    "2025-02-24"
+  ],
+  "forcing": {
+    "currents": "NASA OSCAR v2.0 (final) surface currents, 0.25 deg daily",
+    "wind": "NASA MERRA-2 (M2T1NXSLV) 10 m wind, 0.5 x 0.625 deg hourly"
+  },
+  "stage1": [
+    {
+      "windage": [
+        0.01,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "sigma": 0.0,
+      "n": 148,
+      "24": {
+        "median_km": 15.56,
+        "p90_km": 29.5,
+        "cone90_coverage": 0.034,
+        "cone_area_km2": 76.0
+      },
+      "48": {
+        "median_km": 27.67,
+        "p90_km": 53.8,
+        "cone90_coverage": 0.027,
+        "cone_area_km2": 216.0
+      }
+    },
+    {
+      "windage": [
+        0.01,
+        0.01
+      ],
+      "K": 20.0,
+      "cscale": 0.8,
+      "n": 148,
+      "24": {
+        "median_km": 17.72,
+        "p90_km": 33.5,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 34.06,
+        "p90_km": 60.7,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 31.0
+      }
+    },
+    {
+      "windage": [
+        0.015,
+        0.015
+      ],
+      "K": 20.0,
+      "cscale": 0.8,
+      "n": 148,
+      "24": {
+        "median_km": 16.48,
+        "p90_km": 31.2,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 31.09,
+        "p90_km": 58.8,
+        "cone90_coverage": 0.02,
+        "cone_area_km2": 31.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.02
+      ],
+      "K": 20.0,
+      "cscale": 0.8,
+      "n": 148,
+      "24": {
+        "median_km": 16.3,
+        "p90_km": 29.8,
+        "cone90_coverage": 0.02,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 29.41,
+        "p90_km": 58.0,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 32.0
+      }
+    },
+    {
+      "windage": [
+        0.025,
+        0.025
+      ],
+      "K": 20.0,
+      "cscale": 0.8,
+      "n": 148,
+      "24": {
+        "median_km": 16.71,
+        "p90_km": 30.0,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 29.41,
+        "p90_km": 57.7,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 32.0
+      }
+    },
+    {
+      "windage": [
+        0.03,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 0.8,
+      "n": 148,
+      "24": {
+        "median_km": 17.42,
+        "p90_km": 30.3,
+        "cone90_coverage": 0.02,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 30.5,
+        "p90_km": 58.8,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 31.0
+      }
+    },
+    {
+      "windage": [
+        0.01,
+        0.01
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "n": 148,
+      "24": {
+        "median_km": 16.98,
+        "p90_km": 29.5,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 32.01,
+        "p90_km": 54.9,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 32.0
+      }
+    },
+    {
+      "windage": [
+        0.015,
+        0.015
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "n": 148,
+      "24": {
+        "median_km": 15.81,
+        "p90_km": 28.3,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 30.4,
+        "p90_km": 54.0,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 33.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.02
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "n": 148,
+      "24": {
+        "median_km": 15.32,
+        "p90_km": 29.3,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 27.73,
+        "p90_km": 53.2,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 32.0
+      }
+    },
+    {
+      "windage": [
+        0.025,
+        0.025
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "n": 148,
+      "24": {
+        "median_km": 15.57,
+        "p90_km": 28.4,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 26.5,
+        "p90_km": 52.9,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 32.0
+      }
+    },
+    {
+      "windage": [
+        0.03,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "n": 148,
+      "24": {
+        "median_km": 15.91,
+        "p90_km": 30.1,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 27.07,
+        "p90_km": 55.0,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 32.0
+      }
+    },
+    {
+      "windage": [
+        0.01,
+        0.01
+      ],
+      "K": 20.0,
+      "cscale": 1.2,
+      "n": 148,
+      "24": {
+        "median_km": 19.61,
+        "p90_km": 36.9,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 35.26,
+        "p90_km": 69.2,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 35.0
+      }
+    },
+    {
+      "windage": [
+        0.015,
+        0.015
+      ],
+      "K": 20.0,
+      "cscale": 1.2,
+      "n": 148,
+      "24": {
+        "median_km": 19.2,
+        "p90_km": 35.3,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 32.86,
+        "p90_km": 66.2,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 35.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.02
+      ],
+      "K": 20.0,
+      "cscale": 1.2,
+      "n": 148,
+      "24": {
+        "median_km": 18.17,
+        "p90_km": 34.8,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 31.12,
+        "p90_km": 63.5,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 35.0
+      }
+    },
+    {
+      "windage": [
+        0.025,
+        0.025
+      ],
+      "K": 20.0,
+      "cscale": 1.2,
+      "n": 148,
+      "24": {
+        "median_km": 16.8,
+        "p90_km": 34.1,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 30.42,
+        "p90_km": 62.4,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 35.0
+      }
+    },
+    {
+      "windage": [
+        0.03,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 1.2,
+      "n": 148,
+      "24": {
+        "median_km": 16.28,
+        "p90_km": 32.4,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 32.43,
+        "p90_km": 59.6,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 35.0
+      }
+    },
+    {
+      "windage": [
+        0.01,
+        0.01
+      ],
+      "K": 20.0,
+      "cscale": 1.4,
+      "n": 148,
+      "24": {
+        "median_km": 23.04,
+        "p90_km": 44.4,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 42.52,
+        "p90_km": 88.6,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 38.0
+      }
+    },
+    {
+      "windage": [
+        0.015,
+        0.015
+      ],
+      "K": 20.0,
+      "cscale": 1.4,
+      "n": 148,
+      "24": {
+        "median_km": 21.46,
+        "p90_km": 43.1,
+        "cone90_coverage": 0.02,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 41.14,
+        "p90_km": 87.0,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 38.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.02
+      ],
+      "K": 20.0,
+      "cscale": 1.4,
+      "n": 148,
+      "24": {
+        "median_km": 20.36,
+        "p90_km": 43.4,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 38.08,
+        "p90_km": 82.7,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 38.0
+      }
+    },
+    {
+      "windage": [
+        0.025,
+        0.025
+      ],
+      "K": 20.0,
+      "cscale": 1.4,
+      "n": 148,
+      "24": {
+        "median_km": 19.64,
+        "p90_km": 43.2,
+        "cone90_coverage": 0.014,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 40.12,
+        "p90_km": 80.0,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 38.0
+      }
+    },
+    {
+      "windage": [
+        0.03,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 1.4,
+      "n": 148,
+      "24": {
+        "median_km": 20.94,
+        "p90_km": 42.7,
+        "cone90_coverage": 0.007,
+        "cone_area_km2": 16.0
+      },
+      "48": {
+        "median_km": 40.13,
+        "p90_km": 79.7,
+        "cone90_coverage": 0.0,
+        "cone_area_km2": 38.0
+      }
+    }
+  ],
+  "stage2": [
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 1000.0,
+      "cscale": 1.0,
+      "sigma": 0.0,
+      "n": 148,
+      "24": {
+        "median_km": 15.93,
+        "p90_km": 28.8,
+        "cone90_coverage": 0.831,
+        "cone_area_km2": 1962.0
+      },
+      "48": {
+        "median_km": 26.97,
+        "p90_km": 53.6,
+        "cone90_coverage": 0.709,
+        "cone_area_km2": 3968.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 2000.0,
+      "cscale": 1.0,
+      "sigma": 0.0,
+      "n": 148,
+      "24": {
+        "median_km": 15.64,
+        "p90_km": 28.5,
+        "cone90_coverage": 0.959,
+        "cone_area_km2": 3905.0
+      },
+      "48": {
+        "median_km": 27.23,
+        "p90_km": 53.4,
+        "cone90_coverage": 0.892,
+        "cone_area_km2": 7924.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "sigma": 0.06,
+      "n": 148,
+      "24": {
+        "median_km": 15.65,
+        "p90_km": 28.8,
+        "cone90_coverage": 0.304,
+        "cone_area_km2": 382.0
+      },
+      "48": {
+        "median_km": 27.06,
+        "p90_km": 53.3,
+        "cone90_coverage": 0.297,
+        "cone_area_km2": 1474.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 200.0,
+      "cscale": 1.0,
+      "sigma": 0.06,
+      "n": 148,
+      "24": {
+        "median_km": 15.76,
+        "p90_km": 29.1,
+        "cone90_coverage": 0.459,
+        "cone_area_km2": 695.0
+      },
+      "48": {
+        "median_km": 26.65,
+        "p90_km": 53.2,
+        "cone90_coverage": 0.459,
+        "cone_area_km2": 2134.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "sigma": 0.08,
+      "n": 148,
+      "24": {
+        "median_km": 15.64,
+        "p90_km": 28.7,
+        "cone90_coverage": 0.453,
+        "cone_area_km2": 642.0
+      },
+      "48": {
+        "median_km": 27.02,
+        "p90_km": 53.3,
+        "cone90_coverage": 0.5,
+        "cone_area_km2": 2523.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 200.0,
+      "cscale": 1.0,
+      "sigma": 0.08,
+      "n": 148,
+      "24": {
+        "median_km": 15.76,
+        "p90_km": 29.0,
+        "cone90_coverage": 0.628,
+        "cone_area_km2": 943.0
+      },
+      "48": {
+        "median_km": 26.54,
+        "p90_km": 53.2,
+        "cone90_coverage": 0.595,
+        "cone_area_km2": 3143.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "sigma": 0.1,
+      "n": 148,
+      "24": {
+        "median_km": 15.64,
+        "p90_km": 28.7,
+        "cone90_coverage": 0.628,
+        "cone_area_km2": 972.0
+      },
+      "48": {
+        "median_km": 27.27,
+        "p90_km": 53.3,
+        "cone90_coverage": 0.655,
+        "cone_area_km2": 3878.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 200.0,
+      "cscale": 1.0,
+      "sigma": 0.1,
+      "n": 148,
+      "24": {
+        "median_km": 15.78,
+        "p90_km": 29.0,
+        "cone90_coverage": 0.75,
+        "cone_area_km2": 1268.0
+      },
+      "48": {
+        "median_km": 26.83,
+        "p90_km": 53.2,
+        "cone90_coverage": 0.757,
+        "cone_area_km2": 4416.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "sigma": 0.12,
+      "n": 148,
+      "24": {
+        "median_km": 15.63,
+        "p90_km": 28.7,
+        "cone90_coverage": 0.743,
+        "cone_area_km2": 1381.0
+      },
+      "48": {
+        "median_km": 27.46,
+        "p90_km": 53.1,
+        "cone90_coverage": 0.804,
+        "cone_area_km2": 5616.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 200.0,
+      "cscale": 1.0,
+      "sigma": 0.12,
+      "n": 148,
+      "24": {
+        "median_km": 15.79,
+        "p90_km": 28.9,
+        "cone90_coverage": 0.818,
+        "cone_area_km2": 1673.0
+      },
+      "48": {
+        "median_km": 27.06,
+        "p90_km": 53.0,
+        "cone90_coverage": 0.831,
+        "cone_area_km2": 6027.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "sigma": 0.14,
+      "n": 148,
+      "24": {
+        "median_km": 15.62,
+        "p90_km": 28.6,
+        "cone90_coverage": 0.818,
+        "cone_area_km2": 1852.0
+      },
+      "48": {
+        "median_km": 27.46,
+        "p90_km": 53.0,
+        "cone90_coverage": 0.885,
+        "cone_area_km2": 7530.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 200.0,
+      "cscale": 1.0,
+      "sigma": 0.14,
+      "n": 148,
+      "24": {
+        "median_km": 15.81,
+        "p90_km": 28.9,
+        "cone90_coverage": 0.851,
+        "cone_area_km2": 2127.0
+      },
+      "48": {
+        "median_km": 26.68,
+        "p90_km": 52.8,
+        "cone90_coverage": 0.865,
+        "cone_area_km2": 7982.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 20.0,
+      "cscale": 1.0,
+      "sigma": 0.16,
+      "n": 148,
+      "24": {
+        "median_km": 15.61,
+        "p90_km": 28.5,
+        "cone90_coverage": 0.872,
+        "cone_area_km2": 2402.0
+      },
+      "48": {
+        "median_km": 27.05,
+        "p90_km": 52.7,
+        "cone90_coverage": 0.912,
+        "cone_area_km2": 9702.0
+      }
+    },
+    {
+      "windage": [
+        0.02,
+        0.03
+      ],
+      "K": 200.0,
+      "cscale": 1.0,
+      "sigma": 0.16,
+      "n": 148,
+      "24": {
+        "median_km": 15.83,
+        "p90_km": 28.8,
+        "cone90_coverage": 0.885,
+        "cone_area_km2": 2674.0
+      },
+      "48": {
+        "median_km": 26.62,
+        "p90_km": 52.5,
+        "cone90_coverage": 0.926,
+        "cone_area_km2": 10204.0
+      }
+    }
+  ],
+  "baseline_calibration": {
+    "windage": [
+      0.01,
+      0.03
+    ],
+    "K": 20.0,
+    "cscale": 1.0,
+    "sigma": 0.0,
+    "n": 148,
+    "24": {
+      "median_km": 15.56,
+      "p90_km": 29.5,
+      "cone90_coverage": 0.034,
+      "cone_area_km2": 76.0
+    },
+    "48": {
+      "median_km": 27.67,
+      "p90_km": 53.8,
+      "cone90_coverage": 0.027,
+      "cone_area_km2": 216.0
+    }
+  },
+  "baseline_holdout": {
+    "n": 87,
+    "24": {
+      "median_km": 16.3,
+      "p90_km": 31.5,
+      "cone90_coverage": 0.057,
+      "cone_area_km2": 65.0
+    },
+    "48": {
+      "median_km": 29.29,
+      "p90_km": 58.1,
+      "cone90_coverage": 0.046,
+      "cone_area_km2": 184.0
+    }
+  },
+  "chosen": {
+    "windage": [
+      0.02,
+      0.03
+    ],
+    "K": 20.0,
+    "cscale": 1.0,
+    "sigma": 0.16
+  },
+  "chosen_calibration": {
+    "n": 148,
+    "24": {
+      "median_km": 15.61,
+      "p90_km": 28.5,
+      "cone90_coverage": 0.872,
+      "cone_area_km2": 2402.0
+    },
+    "48": {
+      "median_km": 27.05,
+      "p90_km": 52.7,
+      "cone90_coverage": 0.912,
+      "cone_area_km2": 9702.0
+    }
+  },
+  "chosen_holdout": {
+    "n": 87,
+    "24": {
+      "median_km": 16.52,
+      "p90_km": 30.5,
+      "cone90_coverage": 0.759,
+      "cone_area_km2": 2363.0
+    },
+    "48": {
+      "median_km": 30.31,
+      "p90_km": 56.8,
+      "cone90_coverage": 0.862,
+      "cone_area_km2": 9713.0
+    }
+  },
+  "created": "2026-10-01T08:22:46"
+}

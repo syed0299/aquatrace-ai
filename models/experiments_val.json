@@ -1,0 +1,242 @@
+[
+  {
+    "features": "pixel",
+    "model": "RF",
+    "conf_weighted": false,
+    "accuracy": 0.8031,
+    "macro_f1": 0.5752,
+    "debris": {
+      "precision": 0.667,
+      "recall": 0.868,
+      "f1": 0.755,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.251,
+      "recall": 0.928,
+      "f1": 0.395,
+      "support": 2627
+    },
+    "seconds": 11.7
+  },
+  {
+    "features": "pixel",
+    "model": "RF",
+    "conf_weighted": true,
+    "accuracy": 0.8061,
+    "macro_f1": 0.5794,
+    "debris": {
+      "precision": 0.737,
+      "recall": 0.86,
+      "f1": 0.794,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.259,
+      "recall": 0.926,
+      "f1": 0.405,
+      "support": 2627
+    },
+    "seconds": 11.7
+  },
+  {
+    "features": "pixel",
+    "model": "ExtraTrees",
+    "conf_weighted": false,
+    "accuracy": 0.791,
+    "macro_f1": 0.5703,
+    "debris": {
+      "precision": 0.711,
+      "recall": 0.885,
+      "f1": 0.788,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.259,
+      "recall": 0.937,
+      "f1": 0.406,
+      "support": 2627
+    },
+    "seconds": 4.4
+  },
+  {
+    "features": "pixel",
+    "model": "ExtraTrees",
+    "conf_weighted": true,
+    "accuracy": 0.786,
+    "macro_f1": 0.5719,
+    "debris": {
+      "precision": 0.714,
+      "recall": 0.887,
+      "f1": 0.791,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.254,
+      "recall": 0.938,
+      "f1": 0.4,
+      "support": 2627
+    },
+    "seconds": 4.3
+  },
+  {
+    "features": "pixel",
+    "model": "HistGB",
+    "conf_weighted": false,
+    "accuracy": 0.8132,
+    "macro_f1": 0.558,
+    "debris": {
+      "precision": 0.521,
+      "recall": 0.878,
+      "f1": 0.654,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.234,
+      "recall": 0.938,
+      "f1": 0.375,
+      "support": 2627
+    },
+    "seconds": 151.1
+  },
+  {
+    "features": "pixel",
+    "model": "HistGB",
+    "conf_weighted": true,
+    "accuracy": 0.8154,
+    "macro_f1": 0.5636,
+    "debris": {
+      "precision": 0.546,
+      "recall": 0.873,
+      "f1": 0.672,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.231,
+      "recall": 0.936,
+      "f1": 0.37,
+      "support": 2627
+    },
+    "seconds": 118.4
+  },
+  {
+    "features": "pixel+texture",
+    "model": "RF",
+    "conf_weighted": false,
+    "accuracy": 0.8819,
+    "macro_f1": 0.7012,
+    "debris": {
+      "precision": 0.761,
+      "recall": 0.894,
+      "f1": 0.822,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.768,
+      "recall": 0.928,
+      "f1": 0.841,
+      "support": 2627
+    },
+    "seconds": 17.0
+  },
+  {
+    "features": "pixel+texture",
+    "model": "RF",
+    "conf_weighted": true,
+    "accuracy": 0.8826,
+    "macro_f1": 0.7038,
+    "debris": {
+      "precision": 0.771,
+      "recall": 0.891,
+      "f1": 0.827,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.768,
+      "recall": 0.932,
+      "f1": 0.842,
+      "support": 2627
+    },
+    "seconds": 18.8
+  },
+  {
+    "features": "pixel+texture",
+    "model": "ExtraTrees",
+    "conf_weighted": false,
+    "accuracy": 0.8808,
+    "macro_f1": 0.6885,
+    "debris": {
+      "precision": 0.791,
+      "recall": 0.9,
+      "f1": 0.842,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.798,
+      "recall": 0.933,
+      "f1": 0.86,
+      "support": 2627
+    },
+    "seconds": 5.0
+  },
+  {
+    "features": "pixel+texture",
+    "model": "ExtraTrees",
+    "conf_weighted": true,
+    "accuracy": 0.8808,
+    "macro_f1": 0.6874,
+    "debris": {
+      "precision": 0.786,
+      "recall": 0.9,
+      "f1": 0.839,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.793,
+      "recall": 0.919,
+      "f1": 0.851,
+      "support": 2627
+    },
+    "seconds": 5.0
+  },
+  {
+    "features": "pixel+texture",
+    "model": "HistGB",
+    "conf_weighted": false,
+    "accuracy": 0.8981,
+    "macro_f1": 0.6933,
+    "debris": {
+      "precision": 0.681,
+      "recall": 0.9,
+      "f1": 0.775,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.744,
+      "recall": 0.893,
+      "f1": 0.812,
+      "support": 2627
+    },
+    "seconds": 149.2
+  },
+  {
+    "features": "pixel+texture",
+    "model": "HistGB",
+    "conf_weighted": true,
+    "accuracy": 0.8998,
+    "macro_f1": 0.7001,
+    "debris": {
+      "precision": 0.669,
+      "recall": 0.901,
+      "f1": 0.768,
+      "support": 1075
+    },
+    "floating": {
+      "precision": 0.742,
+      "recall": 0.886,
+      "f1": 0.808,
+      "support": 2627
+    },
+    "seconds": 172.9
+  }
+]
