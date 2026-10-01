@@ -185,7 +185,7 @@ Drift settings were tuned on **January 2025** buoys (`python -m aquatrace.tune_d
 - **Route** (`route.py`): greedy moving-target interception from a port. Each stop is aimed at the forecast position at
   the boat's arrival time. Legs over land and stops beyond the 48 h forecast are skipped.
 
-## Honest limitations (say these before a judge asks)
+## Honest limitations
 
 - **No satellite shows every piece of plastic live.** PACE passes once a day (~1.2 km pixels), Sentinel-2 every few days
   near the coast, and clouds block both. We show *potential* floating-material hotspots with confidence, and the
